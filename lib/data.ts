@@ -62,18 +62,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Mobile Application Project",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Online payment management android app with crud operations, search, toast notifications, validations and firebase database.",
+    tags: ["Kotlin", "Firebase", "Android Studio"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Payment System",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "LMS Payment management system using MERN. System also have CRUD operations, Search, Report Generate, Database connection.",
+    tags: ["MERN Stack", "Java Script", "HTML", "CSS", "Mongo DB","Stripe payment getway"],
     imageUrl: rmtdevImg,
+  },
+  {
+    title: "IWT Project",
+    description:
+      "Create a automated car parking system. Enables ticket reservation and personalized parking slot allocation for efficient vehicle management",
+    tags: ["PHP", "HTML", "CSS", "javascript"],
+    imageUrl: wordanalyticsImg,
   },
   {
     title: "Word Analytics",
@@ -87,21 +94,25 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "PHP",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Mysql",
+  "Firebase",
   "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Java",
+  "Kotlin",
+  "C",
+  "C++",
+  " Stripe & Razorpay payment gateway",
+  "Android Studio",
+  "Flutter",
+
+
+
 ] as const;
