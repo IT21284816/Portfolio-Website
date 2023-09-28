@@ -44,11 +44,36 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                {item.description}
-              </p>
+            <div style={{ textAlign: "left" }}>
+                
+                <h3 
+                  className="font-semibold capitalize"
+                    style={{
+                              display: "inline-block",
+                              marginBottom: "0.5rem", // Add some vertical spacing
+                              fontSize: "1.2rem", // Adjust the font size for mobile
+                          }}
+                  >
+                      {item.title}
+                </h3>
+
+                  <p
+                    className="font-normal !mt-0"
+                      style={{
+                                 display: "inline-block",
+                                 
+                                  marginBottom: "0.5rem", // Add some vertical spacing
+                                 fontSize: "1rem", // Adjust the font size for mobile
+                              }}
+                    >
+                              {item.location}
+                      </p>
+                    
+                    <p className="" style={{display: "inline-block", marginRight: "20rem",}}></p>
+            </div>
+
+
+             
             </VerticalTimelineElement>
           </React.Fragment>
         ))}

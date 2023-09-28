@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { LuPenSquare } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -38,24 +39,24 @@ export const experiencesData = [
     title: "G.C.E ORDINARY LEVEL",
     location: "Sri Devananda College",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(LuGraduationCap),
+      "",
+    icon: React.createElement(LuPenSquare),
     date: "2017",
   },
   {
     title: "G.C.E ADVANCED LEVEL",
     location: "Sri Devananda College",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "",
     icon: React.createElement(CgWorkAlt),
     date: "2020",
   },
   {
-    title: "BSC (HONS) INFORMATION TECHNOLOGY",
-    location: "Sri Lanka Institute Of Information",
+    title: "BSC(HONS) INFORMATION TECHNOLOGY",
+    location: "Sri Lanka Institute Of Information Technology ",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "",
+    icon: React.createElement(LuGraduationCap),
     date: "2021 - present",
   },
 ] as const;
