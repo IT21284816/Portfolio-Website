@@ -3,9 +3,11 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { LuPenSquare } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import AndroidImg from "@/public/Android.jpg";
+import ITPImg from "@/public/ITP.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import flutter from "@/public/flutter.png"
+import portfolioImg from "@/public/portfolio.png"
 
 export const links = [
   {
@@ -67,14 +69,14 @@ export const projectsData = [
     description:
       "Online payment management android app with crud operations, search, toast notifications, validations and firebase database.",
     tags: ["Kotlin", "Firebase", "Android Studio"],
-    imageUrl: corpcommentImg,
+    imageUrl: AndroidImg,
   },
   {
     title: "Payment System",
     description:
       "LMS Payment management system using MERN. System also have CRUD operations, Search, Report Generate, Database connection.",
     tags: ["MERN Stack", "Java Script", "HTML", "CSS", "Mongo DB","Stripe payment getway"],
-    imageUrl: rmtdevImg,
+    imageUrl: ITPImg,
   },
   {
     title: "IWT Project",
@@ -88,7 +90,14 @@ export const projectsData = [
     description:
       "A simple Calculator App.",
     tags: ["Flutter","C++", "Dart", "HTML", "Swift", "CMake"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: flutter,
+  },
+  {
+    title: "Portfolio-Website",
+    description:
+      "Crafting my debut portfolio website to showcase my skills, work, and passion. A digital canvas reflecting my journey and creativity.",
+    tags: ["Next.js","TypeScript", "JavaScript", "Tailwind CSS", "Framer Motion", "CSS"],
+    imageUrl: portfolioImg,
   },
 ] as const;
 
