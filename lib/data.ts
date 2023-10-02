@@ -86,8 +86,8 @@ export const projectsData = [
   {
     title: "Flutter Project",
     description:
-      "A simple alculator App.",
-    tags: ["C++", "Dart", "HTML", "Swift", "CMake"],
+      "A simple Calculator App.",
+    tags: ["Flutter","C++", "Dart", "HTML", "Swift", "CMake"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
