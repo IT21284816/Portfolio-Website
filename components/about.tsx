@@ -19,30 +19,16 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      My name is duhun , I’m currently pursuing my Undergraduate degree in information technology.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      During my time at sliit I have a strong foundation in various programming languages and web technologies such as 
+        <span className="font-medium">c, c++, java, python, kotlin, mern stack ,java script, html, CSS, and php etc.</span>.
+        I have also worked on database system like MySQL , mongo dB, firebase and experience with android studio and version control using git.
+        </p>
+        <p>
+        I am quick learner and ready to take new challenges required to perform better and  I am willing to take any kind of  opportunity in your company that will allow my skills to grow.
       </p>
     </motion.section>
   );

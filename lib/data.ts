@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import { LuPenSquare } from "react-icons/lu";
 import AndroidImg from "@/public/Android.jpg";
 import ITPImg from "@/public/ITP.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import iwtImg from "@/public/iwt.png";
 import flutter from "@/public/flutter.png"
 import portfolioImg from "@/public/portfolio.png"
 
@@ -27,8 +27,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Education",
+    hash: "#education",
   },
   {
     name: "Contact",
@@ -36,7 +36,7 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const educationData = [
   {
     title: "G.C.E ORDINARY LEVEL",
     location: "Sri Devananda College",
@@ -83,7 +83,7 @@ export const projectsData = [
     description:
       "Create a automated car parking system. Enables ticket reservation and personalized parking slot allocation for efficient vehicle management",
     tags: ["PHP", "HTML", "CSS", "javascript"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: iwtImg,
   },
   {
     title: "Flutter Project",
