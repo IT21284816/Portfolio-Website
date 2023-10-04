@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/../public/duhun.jpg"
+              src="/duhun.jpg"
               alt="Duhun"
               width="256"
               height="256"
