@@ -9,6 +9,7 @@ import iwtImg from "@/public/iwt.png";
 import flutterImg from "@/public/flutter.png"
 import portfolioImg from "@/public/portfolio.png"
 import springBootImg from "@/public/springboot.png"
+import MernLoginImg from "@/public/mernLogin.png"
 
 export const links = [
   {
@@ -107,6 +108,13 @@ export const projectsData = [
     tags: ["Java","HTML", "Java Script", "CSS", "Spring Boot"],
     imageUrl: springBootImg,
   },
+  {
+    title: "Mern Login",
+    description:
+      "Register And Login with MongoDB.",
+    tags: ["MERN","MongoDB", "Java Script", "CSS", "HTML"],
+    imageUrl: MernLoginImg,
+  },
 ] as const;
 
 export const skillsData = [
@@ -130,6 +138,8 @@ export const skillsData = [
   " Stripe & Razorpay payment gateway",
   "Android Studio",
   "Flutter",
+  "Dart",
+  "Swift",
   "Bootstrap",
   "Tailwind CSS",
   "Typescript",
