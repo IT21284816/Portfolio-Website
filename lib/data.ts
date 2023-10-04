@@ -6,8 +6,9 @@ import { LuPenSquare } from "react-icons/lu";
 import AndroidImg from "@/public/Android.jpg";
 import ITPImg from "@/public/ITP.png";
 import iwtImg from "@/public/iwt.png";
-import flutter from "@/public/flutter.png"
+import flutterImg from "@/public/flutter.png"
 import portfolioImg from "@/public/portfolio.png"
+import springBootImg from "@/public/springboot.png"
 
 export const links = [
   {
@@ -81,7 +82,7 @@ export const projectsData = [
   {
     title: "IWT Project",
     description:
-      "Create a automated car parking system. Enables ticket reservation and personalized parking slot allocation for efficient vehicle management",
+      "Create a automated car parking system. Enables ticket reservation and personalized parking slot allocation for efficient vehicle management.",
     tags: ["PHP", "HTML", "CSS", "javascript"],
     imageUrl: iwtImg,
   },
@@ -90,7 +91,7 @@ export const projectsData = [
     description:
       "A simple Calculator App.",
     tags: ["Flutter","C++", "Dart", "HTML", "Swift", "CMake"],
-    imageUrl: flutter,
+    imageUrl: flutterImg,
   },
   {
     title: "Portfolio-Website",
@@ -98,6 +99,13 @@ export const projectsData = [
       "Crafting my debut portfolio website to showcase my skills, work, and passion. A digital canvas reflecting my journey and creativity.",
     tags: ["Next.js","TypeScript", "JavaScript", "Tailwind CSS", "Framer Motion", "CSS"],
     imageUrl: portfolioImg,
+  },
+  {
+    title: "Spring Boot Project",
+    description:
+      "Employee Management System using Spring boot backend and html frontend with CRUD operations.",
+    tags: ["Java","HTML", "Java Script", "CSS", "Spring Boot"],
+    imageUrl: springBootImg,
   },
 ] as const;
 
@@ -125,6 +133,7 @@ export const skillsData = [
   "Bootstrap",
   "Tailwind CSS",
   "Typescript",
+  "Spring Boot"
 
 
 
