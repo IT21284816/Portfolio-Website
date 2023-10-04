@@ -33,7 +33,7 @@ export default function Intro() {
           >
             <Image
               src="/../public/duhun.jpg"
-              alt="Ricardo portrait"
+              alt="Duhun"
               width="256"
               height="256"
               quality="100"
