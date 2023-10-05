@@ -143,7 +143,9 @@ export const skillsData = [
   "Bootstrap",
   "Tailwind CSS",
   "Typescript",
-  "Spring Boot"
+  "Spring Boot",
+  "Figma",
+  "UI UX"
 
 
 
