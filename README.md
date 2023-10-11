@@ -1,4 +1,4 @@
-terminal - npm run dev
+terminal code - npm run dev
 
 https://duhun.vercel.app/
 
