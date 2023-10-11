@@ -10,6 +10,7 @@ import flutterImg from "@/public/flutter.png"
 import portfolioImg from "@/public/portfolio.png"
 import springBootImg from "@/public/springboot.png"
 import MernLoginImg from "@/public/mernLogin.png"
+import phpImg from "@/public/php.png"
 
 export const links = [
   {
@@ -114,6 +115,13 @@ export const projectsData = [
       "Register And Login with MongoDB.",
     tags: ["MERN","MongoDB", "Java Script", "CSS", "HTML"],
     imageUrl: MernLoginImg,
+  },
+  {
+    title: "PHP Website Project",
+    description:
+      "Register form with PHP and AJAX",
+    tags: ["PHP","HTML", "Java Script", "CSS", "Bootstrap"],
+    imageUrl: phpImg,
   },
 ] as const;
 
