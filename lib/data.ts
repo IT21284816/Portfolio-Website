@@ -120,7 +120,7 @@ export const projectsData = [
     title: "PHP Website Project",
     description:
       "Register form with PHP and AJAX",
-    tags: ["PHP","HTML", "Java Script", "CSS", "Bootstrap"],
+    tags: ["PHP","HTML", "Java Script", "CSS", "Bootstrap", "Mysql with XAMPP"],
     imageUrl: phpImg,
   },
 ] as const;
